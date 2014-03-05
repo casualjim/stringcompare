@@ -45,3 +45,52 @@
 [info] Parameters(compare -> nocaseCmp, pctEqual -> 33): 195.31
 [info] Parameters(compare -> nocaseCmp, pctEqual -> 50): 168.468
 [info] Parameters(compare -> nocaseCmp, pctEqual -> 75): 158.7
+
+
+[info] cores: 8
+[info] hostname: azkaban.local
+[info] jvm-name: Java HotSpot(TM) 64-Bit Server VM
+[info] jvm-vendor: Oracle Corporation
+[info] jvm-version: 24.51-b03
+[info] os-arch: x86_64
+[info] os-name: Mac OS X
+[info] Parameters(compare -> upperEq, pctEqual -> 5): 512.049
+[info] Parameters(compare -> upperEq, pctEqual -> 33): 477.48
+[info] Parameters(compare -> upperEq, pctEqual -> 50): 455.716
+[info] Parameters(compare -> upperEq, pctEqual -> 75): 424.041
+[info] Parameters(compare -> lowerEq, pctEqual -> 5): 506.644
+[info] Parameters(compare -> lowerEq, pctEqual -> 33): 467.222
+[info] Parameters(compare -> lowerEq, pctEqual -> 50): 446.886
+[info] Parameters(compare -> lowerEq, pctEqual -> 75): 416.677
+[info] Parameters(compare -> nocaseEq, pctEqual -> 5): 225.557
+[info] Parameters(compare -> nocaseEq, pctEqual -> 33): 193.131
+[info] Parameters(compare -> nocaseEq, pctEqual -> 50): 182.948
+[info] Parameters(compare -> nocaseEq, pctEqual -> 75): 143.868
+[info] Parameters(compare -> nocaseLower, pctEqual -> 5): 531.704
+[info] Parameters(compare -> nocaseLower, pctEqual -> 33): 495.792
+[info] Parameters(compare -> nocaseLower, pctEqual -> 50): 479.783
+[info] Parameters(compare -> nocaseLower, pctEqual -> 75): 471.531
+[info] Parameters(compare -> nocaseUpper, pctEqual -> 5): 545.055
+[info] Parameters(compare -> nocaseUpper, pctEqual -> 33): 506.573
+[info] Parameters(compare -> nocaseUpper, pctEqual -> 50): 481.736
+[info] Parameters(compare -> nocaseUpper, pctEqual -> 75): 466.876
+[info] Parameters(compare -> upperGt, pctEqual -> 5): 541.731
+[info] Parameters(compare -> upperGt, pctEqual -> 33): 505.613
+[info] Parameters(compare -> upperGt, pctEqual -> 50): 484.761
+[info] Parameters(compare -> upperGt, pctEqual -> 75): 451.755
+[info] Parameters(compare -> lowerGt, pctEqual -> 5): 535.253
+[info] Parameters(compare -> lowerGt, pctEqual -> 33): 486.28
+[info] Parameters(compare -> lowerGt, pctEqual -> 50): 476.205
+[info] Parameters(compare -> lowerGt, pctEqual -> 75): 445.243
+[info] Parameters(compare -> upperCmp, pctEqual -> 5): 528.29
+[info] Parameters(compare -> upperCmp, pctEqual -> 33): 493.696
+[info] Parameters(compare -> upperCmp, pctEqual -> 50): 492.648
+[info] Parameters(compare -> upperCmp, pctEqual -> 75): 455.239
+[info] Parameters(compare -> lowerCmp, pctEqual -> 5): 553.8
+[info] Parameters(compare -> lowerCmp, pctEqual -> 33): 523.213
+[info] Parameters(compare -> lowerCmp, pctEqual -> 50): 455.208
+[info] Parameters(compare -> lowerCmp, pctEqual -> 75): 423.662
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 5): 237.448
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 33): 233.086
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 50): 229.815
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 75): 224.06

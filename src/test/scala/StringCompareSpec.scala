@@ -13,7 +13,12 @@ object PrependPerformance extends PerformanceTest.Quickbenchmark {
                                             StringCompare.nocaseCmp )
 
   val pctEqual = Gen.enumeration("pctEqual")(5, 33, 50, 75)
-  val words = scala.io.Source.fromFile("/usr/share/dict/words").getLines.to[Array]
+  val words = {
+    scala.io.Source.fromFile("/usr/share/dict/words").getLines.to[Array].map { s => 
+      if (s.length > 1) s(0).toString + s(1).toUpper.toString + s.substring(2) 
+      else s
+    }
+  }
 
   val comparesAndPct = for {
     c ← compares
