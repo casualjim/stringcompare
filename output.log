@@ -1,0 +1,47 @@
+Detected sbt version 0.12.3
+Using /Users/stew/.sbt/0.12.3 as sbt dir, -sbt-dir to override.
+[info] Set current project to stringcompare (in build file:/Users/stew/devel/stringcompare/)
+[info] Compiling 1 Scala source to /Users/stew/devel/stringcompare/target/scala-2.10/classes...
+[info] Compiling 1 Scala source to /Users/stew/devel/stringcompare/target/scala-2.10/test-classes...
+[info] ::Benchmark equals.equals::
+[info] cores: 8
+[info] hostname: Mikes-MacBook-Pro.local
+[info] jvm-name: Java HotSpot(TM) 64-Bit Server VM
+[info] jvm-vendor: Oracle Corporation
+[info] jvm-version: 24.45-b08
+[info] os-arch: x86_64
+[info] os-name: Mac OS X
+[info] Parameters(compare -> upperEq, pctEqual -> 5): 387.877
+[info] Parameters(compare -> upperEq, pctEqual -> 33): 368.3
+[info] Parameters(compare -> upperEq, pctEqual -> 50): 350.213
+[info] Parameters(compare -> upperEq, pctEqual -> 75): 331.544
+[info] Parameters(compare -> lowerEq, pctEqual -> 5): 255.531
+[info] Parameters(compare -> lowerEq, pctEqual -> 33): 240.121
+[info] Parameters(compare -> lowerEq, pctEqual -> 50): 228.728
+[info] Parameters(compare -> lowerEq, pctEqual -> 75): 209.52
+[info] Parameters(compare -> nocaseEq, pctEqual -> 5): 149.421
+[info] Parameters(compare -> nocaseEq, pctEqual -> 33): 134.886
+[info] Parameters(compare -> nocaseEq, pctEqual -> 50): 129.827
+[info] Parameters(compare -> nocaseEq, pctEqual -> 75): 114.225
+[info] Parameters(compare -> upperGt, pctEqual -> 5): 387.767
+[info] Parameters(compare -> upperGt, pctEqual -> 33): 363.765
+[info] Parameters(compare -> upperGt, pctEqual -> 50): 349.02
+[info] Parameters(compare -> upperGt, pctEqual -> 75): 327.462
+[info] Parameters(compare -> lowerGt, pctEqual -> 5): 254.02
+[info] Parameters(compare -> lowerGt, pctEqual -> 33): 239.18
+[info] Parameters(compare -> lowerGt, pctEqual -> 50): 226.98
+[info] Parameters(compare -> lowerGt, pctEqual -> 75): 212.032
+[info] Parameters(compare -> upperCmp, pctEqual -> 5): 394.282
+[info] Parameters(compare -> upperCmp, pctEqual -> 33): 369.458
+[info] Parameters(compare -> upperCmp, pctEqual -> 50): 356.648
+[info] Parameters(compare -> upperCmp, pctEqual -> 75): 336.046
+[info] Parameters(compare -> lowerCmp, pctEqual -> 5): 261.399
+[info] Parameters(compare -> lowerCmp, pctEqual -> 33): 247.879
+[info] Parameters(compare -> lowerCmp, pctEqual -> 50): 230.049
+[info] Parameters(compare -> lowerCmp, pctEqual -> 75): 211.865
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 5): 170.923
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 33): 166.964
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 50): 158.814
+[info] Parameters(compare -> nocaseCmp, pctEqual -> 75): 154.455
+[info] 
+[info] Passed: : Total 0, Failed 0, Errors 0, Passed 0, Skipped 0
