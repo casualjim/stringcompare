@@ -4,6 +4,8 @@ object PrependPerformance extends PerformanceTest.Quickbenchmark {
   val compares = Gen.enumeration("compare")(StringCompare.upperEq,
                                             StringCompare.lowerEq,
                                             StringCompare.nocaseEq,
+                                            StringCompare.nocaseLower,
+                                            StringCompare.nocaseUpper,
                                             StringCompare.upperGt,
                                             StringCompare.lowerGt,
                                             StringCompare.upperCmp,

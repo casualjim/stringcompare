@@ -16,6 +16,14 @@ object StringCompare {
     def cmp(s1: String, s2: String) = s1.equalsIgnoreCase(s2)
     override def toString = "nocaseEq"
   }
+  val nocaseUpper = new StringCompare {
+    def cmp(s1: String, s2: String) = s1.toUpperCase.equalsIgnoreCase(s2.toUpperCase)
+    override def toString = "nocaseUpper"
+  }
+  val nocaseLower = new StringCompare {
+    def cmp(s1: String, s2: String) = s1.toLowerCase.equalsIgnoreCase(s2.toLowerCase)
+    override def toString = "nocaseLower"
+  }
   val upperGt = new StringCompare {
     def cmp(s1: String, s2: String) = s1.toUpperCase > s2.toUpperCase
     override def toString = "upperGt"
